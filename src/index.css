@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    background-color: #222222;
+    justify-content: center;
+    margin: 0;
+}
+#form{
+    display: flex;
+    justify-content: center;
+}
+input[type="text"]{
+    display: flex;
+    height: 90px;
+    width: 400px;
+    margin: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    height: 90px;
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: -5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: hsl(120, 100%, 28%);
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: all 0.3s linear;
+}
+#button:hover{
+    background-color: hsl(120, 100%, 26.5%);
+    transform: scale(105%);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#sho3ayb ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    width: 1000px;
+    margin: 0;
+}
+li{
+    list-style: none;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: left;
+    height: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.btns {
+    height: 60px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: hsl(200, 100%, 40%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+}
+
+.btns:hover {
+    background-color: hsl(200, 100%, 35%);
+    transform: scale(105%);
+}
+.hi{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 25%;
+}
